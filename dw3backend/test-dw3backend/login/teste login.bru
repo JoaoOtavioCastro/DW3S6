@@ -1,0 +1,19 @@
+meta {
+  name: teste login
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:40000/Login
+  body: json
+  auth: none
+}
+
+body:json {
+  
+  {
+      "username": "qwe", "password": "qwe"
+  
+  }
+}
